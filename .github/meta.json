@@ -1,0 +1,8 @@
+[
+    {
+        "ident": "recreate_lobby_standalone",
+        "version": "%VERSION%",
+        "patchnotes_url": "https://github.com/mbien1981/PD2-Recreate-Lobby/commits/main/",
+        "download_url": "https://github.com/mbien1981/PD2-Recreate-Lobby/archive/refs/heads/main.zip"
+    }
+]

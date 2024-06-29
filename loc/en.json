@@ -1,0 +1,5 @@
+{
+    "menu_recreate_lobby": "RE-REGISTER LOBBY",
+    "menu_recreate_lobby_help": "When the Steam|EPIC services are down, lobbies are sometimes no longer registered. Use this to create a new lobby while keeping all players and settings. Note that existing players need to rejoin (after the game) for everything to work correctly.",
+    "menu_recreate_lobby_confirm": "Are you sure you want to re-register the lobby? This causes some issues for existing players.",
+}

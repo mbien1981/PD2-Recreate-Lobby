@@ -1,0 +1,42 @@
+{
+    "name": "Recreate lobby",
+    "author": "DorentuZ` (ported by _atom)",
+    "contact": "DorentuZ` (Original Author): https://steamcommunity.com/profiles/76561197973573096/ \n _atom: https://steamcommunity.com/profiles/76561197960841550/",
+    "version": "1.0",
+    "updates": [
+        {
+            "identifier": "recreate_lobby_standalone",
+            "host": {
+                "meta": "https://github.com/mbien1981/PD2-Recreate-Lobby/releases/download/auto-update/meta.json",
+                "download": "https://github.com/mbien1981/PD2-Recreate-Lobby/archive/refs/heads/main.zip",
+                "patchnotes": "https://github.com/mbien1981/PD2-Recreate-Lobby/commits/main/"
+            }
+        }
+    ],
+    "hooks": [
+        {
+            "hook_id": "lib/setups/setup",
+            "script_path": "lua/setup.lua"
+        },
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "lua/menumanager.lua"
+        },
+        {
+            "hook_id": "lib/network/base/networkpeer",
+            "script_path": "lua/networkpeer.lua"
+        },
+        {
+            "hook_id": "lib/network/base/basenetworksession",
+            "script_path": "lua/basenetworksession.lua"
+        },
+        {
+            "hook_id": "lib/network/matchmaking/networkmatchmakingepic",
+            "script_path": "lua/networkmatchmaking.lua"
+        },
+        {
+            "hook_id": "lib/network/matchmaking/networkmatchmakingsteam",
+            "script_path": "lua/networkmatchmaking.lua"
+        }
+    ]
+}
